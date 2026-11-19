@@ -1,0 +1,58 @@
+{
+  "Ridge": {
+    "alpha_validation_croisee": 0.006309573444801942,
+    "mse_test_alpha_retenu": 0.0245,
+    "mse_test_sans_regularisation": 0.0252,
+    "mse_apprentissage_sans_regularisation": 0.0145,
+    "variables_conservees": 15
+  },
+  "Lasso": {
+    "alpha_validation_croisee": 3.981071705534986e-05,
+    "mse_test_alpha_retenu": 0.0243,
+    "mse_test_sans_regularisation": 0.0244,
+    "mse_apprentissage_sans_regularisation": 0.0159,
+    "variables_conservees": 7
+  },
+  "taille_echantillon": {
+    "12": {
+      "sans": 17.5003,
+      "ridge_cv": 0.0536
+    },
+    "15": {
+      "sans": 4.2475,
+      "ridge_cv": 0.0444
+    },
+    "20": {
+      "sans": 0.2315,
+      "ridge_cv": 0.039
+    },
+    "30": {
+      "sans": 0.0522,
+      "ridge_cv": 0.031
+    },
+    "45": {
+      "sans": 0.0329,
+      "ridge_cv": 0.0274
+    },
+    "60": {
+      "sans": 0.0281,
+      "ridge_cv": 0.0255
+    }
+  },
+  "ElasticNet": {
+    "alpha": 0.00031622776601683794,
+    "l1_ratio": 0.8,
+    "mse_test": 0.0243
+  },
+  "MonteCarlo": {
+    "experience_tp": {
+      "N": 10000,
+      "moyenne": 9.9795,
+      "variance": 4.0508,
+      "ic_bas": 9.9401,
+      "ic_haut": 10.0189,
+      "contient_mu": true
+    },
+    "pente_largeur_ic": -0.496
+  }
+}
